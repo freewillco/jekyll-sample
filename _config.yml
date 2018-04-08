@@ -38,9 +38,9 @@ collections:
     output: true
 
 header_pages:
-  - pages/map.md
-  - pages/locations.md
-  - pages/posts.md
+  - map.md
+  - locations.md
+  - posts.md
   - about.md
 
 # Exclude from processing.

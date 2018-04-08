@@ -7,7 +7,8 @@ title: "Map"
   /* Always set the map height explicitly to define the size of the div
     * element that contains the map. */
   #map {
-    height: 100%;
+    /* height: 100%; */
+    height: 400px;
   }
   /* Optional: Makes the sample page fill the window. */
   html, body {

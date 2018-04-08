@@ -38,7 +38,7 @@ collections:
     output: true
 
 header_pages:
-  - pages/dashboard.md
+  - pages/map.md
   - pages/locations.md
   - pages/posts.md
   - about.md

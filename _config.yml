@@ -14,12 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Niagara Region Habitat Loss
-author: Ivor Williams
-email: ivor.williams@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tracking Habitat Loss in the Niagara Region
+
+# author: Ivor Williams
+author: Marcie Jacklin
+# email: ivor.williams@gmail.com
+email: mjacklin19@gmail.com
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 # twitter_username: jekyllrb
 # github_username:  jekyll
 # facebook_username: facebook
@@ -37,11 +42,20 @@ collections:
   posts:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: locations
+    values:
+      layout: page
+
 header_pages:
-  - map.md
   - locations.md
+  - map.md
   - posts.md
   - about.md
+
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

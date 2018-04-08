@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Map"
+title: Map
 ---
 
 <style>
@@ -78,7 +78,7 @@ title: "Map"
 
     var contentString = '<b>Hendershot Boulevard & Garner Road, Niagara Falls</b>' +
         '<br>Mature forests in 1934 would have been continually forested since at least the 1850’s - 1830’s making this a remnant of the original Carolinian forest.' +
-        '<br><a href="http://google.com">Read more</a>';
+        '<br><a href="/locations/hendershot-blvd.html">Read more</a>';
 
     // Replace the info window's content and position.
     infoWindow.setContent(contentString);

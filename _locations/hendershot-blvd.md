@@ -1,6 +1,15 @@
 ---
 title: Hendershot Boulevard & Garner Road, Niagara Falls
+polygon:
+  - [ 1.2, 2.3 ]
+  - [ 3.4, 4.5 ]
+  - [ 5.6, 6.7 ]
+category: lost
 ---
+
+{{ page.title }}
+
+{{ page.polygon | inspect }}
 
 ![1934]({{ "/assets/hendershot-1.png" }})
 

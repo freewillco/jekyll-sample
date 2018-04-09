@@ -50,7 +50,7 @@ defaults:
       layout: page
 
 header_pages:
-  - locations.md
+  - locations.html
   - map.md
   - posts.md
   - about.md

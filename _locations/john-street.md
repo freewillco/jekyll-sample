@@ -1,5 +1,6 @@
 ---
 title: 200 John Street, Niagara-on-the-Lake
+category: threatened
 ---
 
 The circled area on this 1934 air photo depicts woodland on 200 John Street.
